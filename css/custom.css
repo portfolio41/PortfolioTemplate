@@ -1,0 +1,114 @@
+/* @media (max-width : 320px) { */
+    @media only screen and (max-height: 400px) {
+    .img-edu {
+        width: 320px !important;
+        height: 350px !important;
+      }
+      .img-exp1 {
+        width: 320px !important;
+        height: 440px !important;
+      }
+      .img-exp2 {
+        width: 320px !important;
+        height: 340px !important;
+      }
+      .img-exp3 {
+        width: 320px !important;
+        height: 270px !important;
+      }
+      .img-skills {
+        width: 320px !important;
+        height: 415px !important;
+      }   
+      .img-home-image {
+        width: 320px !important;
+        height: 400px !important;
+      }
+}
+
+@media only screen and (min-width : 1024px)  {
+/* @media only screen and (width : 1024px) and (orientation : landscape) {   */
+    .img-edu {
+        width: 500px !important;
+        height: 550px !important;
+      }
+      .img-exp1 {
+        width: 500px !important;
+        height: 690px !important;
+      }
+      .img-exp2 {
+        width: 500px !important;
+        height: 530px !important;
+      }
+      .img-exp3 {
+        width: 500px !important;
+        height: 425px !important;
+      }
+      .img-skills {
+        width: 440px !important;
+        height: 574px !important;
+      }
+      .img-home-image {
+        width: 383px !important;
+        height: 475px !important;
+      }
+      
+}
+
+
+.lbl-white{
+    color: white !important;
+    font-size: 25px;
+}
+.lbl-orange{
+    color: #f78b26;
+    font-size: 15px;
+}
+.home-container {
+    margin-top: 10.5%;
+}
+.resp-tabs-list {
+    padding: 8% 0px !important;
+}
+.VerticalTab.tabs_ver_6 .resp-tabs-list .logo img {
+    max-width: 60%;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.responsive-logo img {
+    max-width: 30%;
+}
+.black-bg {
+    background-image: url(../img/background-image.png);
+    background-color: black;
+}
+.img-1 {
+    opacity: 1;
+  }
+  
+  .image-transparent {
+	background-image: url(../img/background-image10.png);  ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 100%;
+    opacity: 0.9;
+}
+.h-center{
+    display: block;
+     margin-right: auto;
+      margin-left: auto;
+      text-align: center;
+}
+.t-center{
+      text-align: center;
+}
+.about-container {
+    margin-top: 10%;
+}
+.projects-container {
+    margin-top: 10%;
+}
+.contact-container {
+    margin-top: 10%;
+}

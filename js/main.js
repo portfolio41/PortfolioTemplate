@@ -1914,7 +1914,7 @@
         image.onload = $.proxy(function() {
           $element.css({
             'background-image': 'url("' + url + '")',
-            'opacity': '1'
+            'opacity': '0.5'
           });
           this._core.trigger('loaded', { element: $element, url: url }, 'lazy');
         }, this);
